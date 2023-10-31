@@ -1,0 +1,97 @@
+/*
+@keyframes example {
+    form {
+        background-color: red;
+    }
+    to {
+        background-color: yellowgreen;
+    }
+}
+
+div{
+    color: aliceblue;
+    font-size: 35px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    animation-name: example;
+    animation-duration: 10s;
+
+}
+
+@keyframes example {
+    0% {background-color: red; left: 0px; top: 0px;}
+    25%{background-color: yellowgreen; left:200px; top: 200px}
+    50%{background-color: purple; left:200px; top: 200px;}
+    75%{background-color: cornflowerblue; left: 0px; top: 0px;}
+    100%{background-color: rgb(48, 59, 27); left: 0px; top: 0px;}
+}
+
+#div2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 4s;
+}
+*/
+
+/*css animation speed
+
+div {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+#div1 { animation-timing-function: linear;}
+#div2 { animation-timing-function: ease;}
+#div3 { animation-timing-function: ease-in;}
+#div4 { animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to { left: 300px;}
+}
+
+*/
+
+/*specify the fill-mode (none,forwards,backwards,both)
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example{
+    from {top: 0px;}
+    to {top: 200px; background-color: blue;}
+}
+*/
+
+/*css transition
+
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+
+div:hover {
+    width: 300px;
+}
+
+*/
+

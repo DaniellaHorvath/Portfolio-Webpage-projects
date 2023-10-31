@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Em and Rem</title>
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            <h1>What are EM and REM</h1>
+            <h2>EM and REM are scalable CSS Units.</h2>
+            <p>When working with responsive design using EM and Rem
+                    allows us to scale our elements up and down, rather
+                    than working with fixed units such as pixels.
+            </p>
+        </div>
+    
+    <div class="rem">
+        <h2>EM</h2>
+        <h3>Em is unit of measure relative to the font size of
+            the nearest parent element. In this example this would 
+            be our div with the class of "em".
+        </h3>
+        <p>If our "em" div has a "font-size" value et to 20px
+            then 1em=20px and 10em=200px etc.
+        </p>
+    </div>
+    <div class="rem">
+        <h2>REM</h2>
+        <h3>rem is unit of measure relative to the font size of 
+            the root/html element, which if not specifically 
+            set will default to 10px.
+        </h3>
+        <p>if the font-size of our root/ html isn't overwritten
+            1rem=16px.
+        </p>
+    </div>
+    </div>
+    
+</body>
+</html>

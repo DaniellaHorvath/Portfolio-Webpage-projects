@@ -1,0 +1,62 @@
+/*Element Selector*/
+h1 {
+    color: rgb(113, 197, 113);
+    background-color: burlywood;
+    font-size: 72px;
+    text-align: center;
+    padding: 20px; 
+    border: 5px ridge rgb(77, 59, 59) 
+}
+
+/*id Selector*/
+
+#id {
+    color: rgb(60, 59, 170);
+    font-size: 24px;
+    background-color: cadetblue;
+    border: 20px;
+    padding: 25px;
+
+}
+
+/*Class Selector*/
+
+.classname {
+    color: darkgreen;
+    background-color: darkgrey;
+    font-size: 15px;
+    border: 20px; color: darkgreen;
+    padding: 25px;
+}
+
+span {
+    color: black;
+    font-size: 20px;
+}
+
+div{
+    background-color: #FAEBD7;
+    color: rgb(150, 14, 14);
+    font-size: 35px;
+    text-align: center;
+}
+
+/*Fonts*/
+* {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+body{
+    background-color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+
