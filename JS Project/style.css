@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: sans-serif;
+  background-image: url(/JavaScript/JS\ Project/img/space-3262811_1920.jpg);
+  background-position: center;
+}
+
+h1 {
+  font-style: italic;
+  margin: 0;
+  color: #1e6075;
+  text-align: center;
+  text-shadow: 1px 1px;
+  font-family: sans-serif;
+}
+
+.score {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1f5e74;
+}
+
+img {
+  border-radius: 15px;
+  padding: 5px;
+}
+
+#grid {
+  margin: auto;
+  margin: 0;
+  position: relative;
+  width: 700px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+#reload {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #073b4c;
+  background-color: #b7e4c7;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: ridge;
+  border-color: #073b4c;
+}
+
+.rules {
+  color: #023047;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+ul {
+  color: #023047;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style: none;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1280px) {
+  body {
+    background-color: #b7e4c7;
+  }
+}
