@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(#fefae0, #daa271);
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "Dancing Script", cursive;
+  /* font-family: "Roboto Condensed", sans-serif; */
+  color: #283618;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 610px;
+  animation-name: fade-up;
+  animation-duration: 2s;
+}
+
+.auto-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 600px;
+  height: 400px;
+  border-radius: 15px;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
