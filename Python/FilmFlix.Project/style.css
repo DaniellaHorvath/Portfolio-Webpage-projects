@@ -1,0 +1,45 @@
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(img/dy.png);
+  background-size: 100%;
+  animation-name: fade-up;
+  animation-duration: 1s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 85px;
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+}
