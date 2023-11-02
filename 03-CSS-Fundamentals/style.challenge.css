@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border: 2px solid black;
+  font-family: sans-serif;
+  line-height: 1.4;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+header {
+  background-color: #f7f7f7;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+img {
+  width: 250px;
+  height: 350px;
+}
+.price {
+  background-color: #ec2f2f;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -34px;
+}
+
+.style {
+  font-size: 10px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.link {
+  color: black;
+  font-family: sans-serif;
+}
+
+a:link {
+  color: black;
+  text-decoration: underline;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+a:hover {
+  color: black;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: #2f6ee2;
+}
+
+.color-red {
+  background-color: #ec2f2f;
+}
+
+.color-yellow {
+  background-color: #f0bf1e;
+}
+
+.color-green {
+  background-color: #90cc20;
+}
+
+.color-brown {
+  background-color: #885214;
+}
+li {
+  list-style-type: square;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+ul,
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 2px solid black;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
