@@ -138,6 +138,7 @@ nav ul li a:hover::after {
 .paragraph {
   color: #fefae0;
   font-size: 18px;
+  text-align: justify;
 }
 
 .tab-titles {
